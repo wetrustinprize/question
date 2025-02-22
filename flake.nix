@@ -21,6 +21,7 @@
         naersk-lib = pkgs.callPackage naersk { };
       in
       {
+		packages.default = naersk-lib.buildPackage ./.;
         defaultPackage = naersk-lib.buildPackage ./.;
         devShell =
           with pkgs;
