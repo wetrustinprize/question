@@ -1,0 +1,6 @@
+{
+	"nixEnvSelector.suggestion": false,
+	// This is a hack to make rust-analyzer work with nix.
+	"rust-analyzer.cargo.sysrootSrc": "/nix/store/r08c2hz6pgag3mcr3pxgwdfjhw4hjidm-rust-lib-src",
+	"nixEnvSelector.nixFile": "${workspaceFolder}/default.nix"
+}

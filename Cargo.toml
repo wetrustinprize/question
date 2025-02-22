@@ -1,0 +1,11 @@
+[package]
+name = "question"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ollama-rs = { version = "0.2.5", features = ["stream"] }
+tokio = { version = "1.0", features = ["full"] }
+tokio-stream = "0.1.17"
+clap = { version = "4.5.30", features = ["derive"] }
+console = "0.15.10"
