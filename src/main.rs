@@ -29,7 +29,7 @@ const THINK_PROMPT: &str = "🤔 ";
 const RESPONSE_PROMPT: &str = "💬 ";
 
 const SYSTEM: &str = "
-	You are suposed to give quick responses unless the user asks for a longer response.
+	Don't think too much, just give a quick response.
 	Don't use emojis.
 	Don't use markdown, you are running on a terminal.
 ";
